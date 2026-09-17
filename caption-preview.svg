@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <!-- A neutral sample picture for previewing caption styles: bright sky and water, dark hills. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6FA3D8"/><stop offset=".55" stop-color="#C9DDEB"/><stop offset="1" stop-color="#F4E3C8"/></linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCE8EE"/><stop offset="1" stop-color="#8FB3C4"/></linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFF6DC"/><stop offset="1" stop-color="#FFF6DC" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1180" cy="300" r="210" fill="url(#sun)"/>
+  <path d="M0 520 L180 360 L330 470 L520 280 L700 450 L860 330 L1040 480 L1230 300 L1420 440 L1600 360 L1600 620 L0 620Z" fill="#7C93A8"/>
+  <path d="M0 580 L220 450 L400 540 L610 420 L820 560 L1010 440 L1220 560 L1400 470 L1600 540 L1600 660 L0 660Z" fill="#56708A"/>
+  <path d="M0 640 C200 600 380 620 560 610 C760 598 980 630 1180 612 C1360 598 1480 610 1600 604 L1600 700 L0 700Z" fill="#3E5A4A"/>
+  <rect y="690" width="1600" height="210" fill="url(#lake)"/>
+  <path d="M0 700 C260 690 520 712 800 700 C1060 690 1330 710 1600 698 L1600 716 L0 716Z" fill="#2F4A3B" opacity=".55"/>
+  <g stroke="#FFFFFF" stroke-opacity=".35" stroke-width="3"><path d="M120 760 H380"/><path d="M620 800 H980"/><path d="M1180 770 H1460"/><path d="M300 850 H560"/></g>
+</svg>
